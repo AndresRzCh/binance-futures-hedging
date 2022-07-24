@@ -18,7 +18,7 @@ that is always open. Different parameters can be set in order to configure the b
 * ``TOLERANCE``: Percent tolerance for the Binance Tool helper that creates the orders (default ``0.0005``)
 
 ## Features
-* It requires [Binance Tools library](https://github.com/AndresRzCh/binance-tools) for helper functions, 
+* It requires [Binance Tools library](https://github.com/AndresRzCh/trading-tools) for helper functions, 
 [Binance API Wrapper](https://github.com/sammchardy/python-binance) and 
 [Unicorn Binance Websocket API](https://github.com/oliver-zehentleitner/unicorn-binance-websocket-api)
 to handle the streams.
@@ -29,8 +29,5 @@ price of ``SYMBOL`` reaches ``TAKE_PROFIT`` the bot automatically stops.
 * Binance API key and Secrey key must be added to environment variables ``BINANCE_API_KEY`` and ``BINANCE_SECRET_KEY``
 
 ## Disclaimer
-There are no warranties expressed or implied in this repository.  
-I am not responsible for anything done with this program.  
-You assume all responsibility and liability.  
-Use it at your own risk.  
+There are no warranties expressed or implied in this repository. I am not responsible for anything done with this program. You assume all responsibility and liability. Use it at your own risk.  
 
